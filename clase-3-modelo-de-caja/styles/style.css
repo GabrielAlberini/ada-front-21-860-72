@@ -1,0 +1,47 @@
+/*Selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Modelo de caja*/
+/*bloque - en linea*/
+/*bloque: ocupa el 100% del ancho*/
+/*en linea: ocupa solo el ancho del contenido*/
+/* 
+header {
+  background-color: chocolate;
+}
+
+p {
+  background-color: yellowgreen;
+}
+
+span {
+  background-color: violet;
+} */
+
+/* span {
+  color: red;
+}
+
+div {
+  background-color: cadetblue;
+  margin: 10px;
+} */
+
+div {
+  /* background-color: aquamarine; */
+}
+
+.img-inline {
+  background-color: tomato;
+  margin: auto;
+}
+
+.cont-img {
+  width: 100px;
+  margin: auto;
+  background-color: chartreuse;
+}
