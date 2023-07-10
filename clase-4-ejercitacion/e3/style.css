@@ -1,0 +1,39 @@
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+.p-comment {
+  color: gray;
+}
+
+a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.s-1 {
+  font-style: italic;
+}
+
+.s-2 {
+  font-weight: bold;
+}
+
+.p-3 {
+  font-style: italic;
+  font-family:cursive;
+}
+
+.s-3 {
+  font-weight: bold;
+}
+
+.s-4 {
+  font-style: italic;
+}
