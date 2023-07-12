@@ -1,0 +1,158 @@
+/*RESET: customizar los estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h2 {
+  background-color: yellowgreen;
+}
+
+h3 {
+  background-color: violet;
+}
+
+ul {
+  background-color: wheat;
+} */
+
+/*Flexbox*/
+
+/*
+  Flexbox es una forma eficiente de crear diseños, alinear y distribuir espacios entre hijos en un contenedor
+
+  FLEXBOX SE APLICA SOLO EN CONTENEDORES PADRES
+*/
+
+/* ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  margin: 15px;
+} */
+
+/* header {
+  background-color: white;
+  border: 2px solid black;
+}
+
+header div {
+  width: 90px;
+}
+
+header div img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+
+li {
+  margin: 10px;
+}
+ */
+
+
+/* .cont-main {
+  width: 500px;
+  background-color: tomato;
+  text-align: center;
+  padding: 10px;
+} 
+
+.cont-header {
+  display: flex;
+  background-color: yellowgreen;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.cont-header img {
+  width: 100px;
+}
+ */
+
+/* footer {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 90px;
+} */
+
+body {
+  background-color: #08cccf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*100% de lo que se ve en pantalla*/
+}
+
+.container {
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*arriba/abajo - izquierda/derecha*/
+  padding: 20px 0;
+}
+
+.title button {
+  /*arriba/abajo - izquierda/derecha*/
+  padding: 3px 8px;
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 5px;
+  background-color: white;
+  color: rgb(172, 172, 172);
+}
+
+.skills div {
+  /*arriba/abajo - izquierda/derecha*/
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.s1 {
+  border: 1px solid rgb(240, 240, 240);
+  border-left: 5px solid rgb(224, 103, 220);
+}
+
+.s2 {
+  border: 1px solid rgb(240, 240, 240);
+  border-left: 5px solid rgb(227, 205, 226);
+}
+
+.s3 {
+  border: 1px solid rgb(240, 240, 240);
+  border-left: 5px solid rgb(224, 157, 57);
+}
+
+
+
+
