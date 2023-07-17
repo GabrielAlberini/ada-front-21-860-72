@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  background-color: black;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cont-img {
+  background-color:#cb2140;
+  padding: 30px;
+  border-radius: 20px 20px 0 0;
+}
+
+.cont-img img {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.cont-data {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  gap: 10px;
+}
+
+ul li {
+  border-radius: 20px;
+  border: 1px solid #cb2140;
+  padding: 3px 10px;
+  font-size: 13px;
+}
+
+h3 {
+  font-size: 13px;
+  padding: 20px 0;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+button {
+  background-color: #cb2140;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 100;
+} */
+
+
+/* Ejercicio 2 */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eae7fb;
+}
+
+.container {
+  width: 300px;
+  background-color: white;
+  padding: 20px 50px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.184);
+}
+
+h3 {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+li {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li:hover {
+  background-color:#7563f6;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+button {
+  display: block;
+  width: 100%;
+  background-color: #7563f6;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 11px;
+}
+
+button:hover {
+  background-color: white;
+  color: #7563f6;
+  outline: 1px solid #7563f6;
+  transition: 0.2s ease;
+}
