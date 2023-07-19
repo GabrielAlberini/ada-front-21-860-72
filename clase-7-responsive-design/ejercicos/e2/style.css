@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  padding: 40px;
+  background-color: #e8ecf3;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cont-colors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  padding: 20px;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.cont-colors .color {
+  width: 120px;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cont-colors h2 {
+  color: 
+  #b4b5bc;
+}
+
+.color:hover {
+  cursor: pointer;
+  box-shadow: -1px 7px 16px 0px rgba(162, 162, 162, 0.955);
+  color: black;
+  transform: translateY(-10px);
+  transition: all 1s ease;
+}
+
+.color:hover h2 {
+  color: black;
+}
+
+.cont-colors .color-palette {
+  height: 100px;
+}
+
+/* Comienzo colores */
+
+.c1 {
+  background-color: #eeedf0;
+}
+
+.c2 {
+  background-color: #a1b5c1;
+}
+
+.c3 {
+  background-color: #f9aca7;
+}
+
+.c4 {
+  background-color: #68747d;
+}
+
+.c5 {
+  background-color: #cf365f;
+}
+
+/* Fin de colores */
+
+.cont-button {
+  padding: 10px;
+  text-align: center;
+}
+
+.cont-button button {
+  background-color: #7e6cca;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px rgba(147, 140, 140, 0.799);
+}

@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+  padding: 20px;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 18px;
+}
+
+header button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px 16px;
+}
+
+header button:hover { /*hover = encima*/
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+main div {
+  background-color: wheat;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  justify-self: center;
+}
+
+main div * {
+  padding-bottom: 5px;
+}
+
+/*breck point => punto de quiebre: "cuando la pantalla tenga X tamaño aplica las siguientes propiedades"*/
+
+/*desktop => 1440px*/
+/*tablet => 880px*/
+/*mobile => 440px*/
+
+/*
+- Cuando la pantalla tenga 880px aplica las siguientes propiedades 
+- Responsive design se emula con las dev tool (herramientas para la desarrolladora) en el navegador
+*/
+
+/*BREAK POINT PARA TABLET*/
+@media (max-width: 880px) {
+  header {
+    background-color: red;
+    color: white;
+  }
+  header button {
+    background-color: blue;
+    color: white;
+  }
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* BREAK POINT MOBILE */
+@media (max-width:480px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
