@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont-personaje {
+  background-color: yellowgreen;
+  padding: 10px;
+  margin: 10px;
+}
+
+.img-personaje {
+  width: 30px;
+  border-radius: 50%;
+}
